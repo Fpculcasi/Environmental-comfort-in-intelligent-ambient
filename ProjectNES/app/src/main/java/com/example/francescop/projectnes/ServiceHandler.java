@@ -51,7 +51,7 @@ class ServiceHandler {
                     //*
                     "http://fpculcasi.altervista.org";
                     //*/"http://10.0.2.2";
-            URL url = new URL(server_url + "/" + my_url);
+            URL url = new URL(server_url + "/app/android/NES/" + my_url);
             //Opening the connection (Not setting or using CONNECTION_TIMEOUT)
             con = (HttpURLConnection) url.openConnection();
 

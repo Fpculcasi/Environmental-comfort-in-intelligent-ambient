@@ -43,7 +43,7 @@ public class ServiceHandler {
 
     	try {
     		//Converting address String to URL
-    		URL url = new URL(Server_url +"/"+ my_url);
+    		URL url = new URL(Server_url +"/app/android/NES/"+ my_url);
     		//Opening the connection (Not setting or using CONNECTION_TIMEOUT)
     		con = (HttpURLConnection) url.openConnection();
     		con.setRequestProperty("User-Agent", "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.4; en-US; rv:1.9.2.2) Gecko/20100316 Firefox/3.6.2");
