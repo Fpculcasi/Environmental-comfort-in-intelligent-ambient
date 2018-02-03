@@ -1,5 +1,5 @@
-# NetwEmbSys-Project
-## Environmental comfort in intelligent ambient
+# Environmental comfort in intelligent ambient
+## Networked Embedded Systems Project, Spring 2017
 
 Simple smart system to monitor and enhance the environmental comfort of the building occupants.
 The application is composed of:
